@@ -32,7 +32,7 @@ Copy *ssl* folder into nginx foder `c:\nginx\`
 
 Copy (overwrite) `conf\nginx.conf` to  `c:\nginx\conf\nginx.conf`
 
-Edit the file Read more [nginx.conf](./conf/nginx.conf)
+Edit the file [nginx.conf](./conf/nginx.conf)
 and replace accrding to your needs:
 #### HTTPS Server Configuration
 
@@ -51,7 +51,7 @@ proxy_pass http://127.0.0.1:3000;
 
 #### Start nxing
 
-- Since Windows doesn’t have a built-in way to run NGINX as a service, we use NSSM.
+- Since Windows doesn’t have a built-in way to run NGINX as a service, we use NSSM.   
 Download NSSM from: [https://nssm.cc/download](https://nssm.cc/download)
 
 - Other way is to simple add to startup application
